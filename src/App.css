@@ -1,0 +1,120 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.workflow-list table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.workflow-list th,
+.workflow-list td {
+  text-align: left;
+  padding: 0.5rem 1rem;
+}
+
+.workflow-list th {
+  background-color: #4472c4;
+}
+
+/* WorkFlow Page */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 20px;
+  height: 80vh;
+}
+
+.left-section {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.right-section {
+  background-color: #e6f7ff;
+  padding: 20px;
+}
+
+
+.react-flow__node.valid {
+  border: 2px solid #1abc9c;
+}
+.react-flow__node.invalid {
+  border: 2px solid #c0392b;
+}
+
+
+.box-container{
+  height: 55vh;
+  overflow: scroll;
+}
+.box-container::-webkit-scrollbar {
+  width: 5px;
+  background-color: #e6f7ff;
+}
+
+.boxs{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-left {
+  margin-right: 10px;
+}
+
+.button-right {
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.button-right:hover {
+  cursor: pointer;
+}
