@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="https://flowchartss.netlify.app" element={<Homepage />} />
-        <Route path="https://flowchartss.netlify.app/workflow/:id" element={<WorkflowDesigner />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/workflow/:id" element={<WorkflowDesigner />} />
       </Routes>
     </BrowserRouter>
   );
