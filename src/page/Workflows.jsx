@@ -39,7 +39,7 @@ function WorkflowDesigner() {
         setModules(data);
         const moduleNodes = data.map((module) => ({
           id: module.id,
-          type: "output",
+          type: "default",
           data: {
             label: `${module.input_type}--> ${module.name}--> ${module.output_type}`,
           },
