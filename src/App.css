@@ -24,21 +24,38 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
+.workflow-list {
+  padding: 20px;
+}
+
+.workflow-list h1 {
+  margin-bottom: 10px;
+}
+
 .workflow-list table {
   border-collapse: collapse;
-  margin-top: 1rem;
-  font-size: 1.2rem;
   width: 100%;
 }
 
 .workflow-list th,
 .workflow-list td {
+  padding: 8px;
   text-align: left;
-  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
 }
 
 .workflow-list th {
   background-color: #4472c4;
+  color: white;
+  font-weight: bold;
+}
+
+.workflow-list tr:hover {
+  background-color: #f5f5f5;
+}
+
+.workflow-list tr {
+  cursor: pointer;
 }
 
 /* WorkFlow Page */
